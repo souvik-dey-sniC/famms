@@ -1,0 +1,26 @@
+<!DOCTYP html>
+<html>
+    <body>
+        <p>
+            <center><h1>A Student Registration Form </h1></center>
+        </p>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+<label for="mobileNumber">Mobile Number:</label>
+<input type="tel" id="mobileNumber" name="mobileNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Enter your mobile number" required>
+<small>Format: 123-456-7890</small><br>
+        <button type="submit">Submit</button>
+          </form>
+
+    </body>
+
+</html>

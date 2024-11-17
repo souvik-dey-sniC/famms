@@ -1,0 +1,50 @@
+<body>
+  <a href="index.php" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary w-100">back to home</a>
+    <div class="bgimg">
+    <div class="cn">
+  <div class="card text-center" style="width: 300px;">
+    <div class="card-header h5 text-white bg-primary">Password Reset</div>
+    <div class="card-body px-5">
+        <form action="" method="post">
+            <div data-mdb-input-init class="form-outline">
+                <input type="password" name="password" class="form-control my-3"placeholder="Enter password"/>
+            </div>
+
+            <div data-mdb-input-init class="form-outline">
+                <input type="password" name="cpassword" class="form-control my-3"placeholder="Enter confirm password"/>
+            </div>
+
+            <button name="updatepassword" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary w-100">Reset password</button>
+            <div class="d-flex justify-content-between mt-4">
+                <a class="" href="userlogin.php">Login</a>
+                <a class="" href="userreg.php">Register</a>
+            </div>
+
+            <?php
+                if(isset($_POST['updatepassword']))
+                {
+                    $password = $_POST['password'];
+                    $cpassword = $_POST['cpassword'];
+                    if($password == $cpassword)
+                    {
+                      $res = updatePassword($password);
+
+                      if($res == 1)
+                      {
+                          echo "Your Password is Updated";
+                      }
+                      else{
+                        echo "Somthing wrong, Try Again";
+                      }
+                    }
+                    else{
+                      echo "Password Not Matched, Try Again";
+                    }
+                    
+                }
+            ?>
+        </form>
+    </div>
+</div>
+</div>
+</div>

@@ -1,0 +1,18 @@
+* {
+    color: blueviolet;
+}
+h1 {
+    color: teal;
+}
+p {
+    color: blue;
+}
+button {
+    color: rgb(42, 46, 165);
+}
+body {
+    background-color: aqua;
+}
+.myClass {
+    color: rgb(196, 106, 106);
+}

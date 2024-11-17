@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="regis.css"
+</head>
+<body style="background-color: rgb(26, 99, 94);">
+    <h1 style="background-color: rgb(105, 105, 222); text-align: center; text-decoration: underline;" width="50%" height="100px">
+        Student Registration Form
+    </h1>
+    <form action="Registration">
+        <table style="background-color: rgb(66, 180, 146);" align="center" width="35%">
+            <tr>
+                <td style="text-transform: capitalize; font-weight: bolder;">
+                    Student Name:
+                </td>
+                <td style="text-transform: uppercase;">
+                    <input type="name" id="fname" placeholder="First Name" autocomplete="off" required style="text-align: center; text-transform: uppercase;"><br>
+                    <input type="name" id="lname" placeholder="Last Name" autocomplete="off" required style="text-align: center; text-transform: uppercase;"><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-transform: capitalize; font-weight: bolder;">
+                    Father's Name:
+                </td>
+                <td style="text-transform: uppercase;">
+                    <input type="name" id="" placeholder="" autocomplete="off" required style="text-transform: uppercase;"><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-transform: capitalize; font-weight: bolder;">
+                    Email Id:
+                </td>
+                <td>
+                    <input type="email" id="" placeholder="abc@1***.com" autocomplete="off" style="text-transform: lowercase;" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Phone Number:
+                </td>
+                <td>
+                    <input type="tel" id="mobileNumber" placeholder="+91*******" autocomplete="off" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Pin Code:
+                </td>
+                <td>
+                    <input type="number" id="pinCode" placeholder="" autocomplete="off" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Password*:
+                </td>
+                <td>
+                    <input type="password" id="" placeholder="Enter Your Password" autocomplete="off" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Confirm Password*:
+                </td>
+                <td>
+                    <input type="password" id="" placeholder="Confirm Password" autocomplete="off" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" id="" name="Gender">Male
+                    <input type="radio" id="" name="Gender">Female
+                    <input type="radio" id="" name="Gender">Others
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Date of Birth:
+                    <td>
+                        <input type="date" autocomplete="off">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Select Language:
+                </td>
+                <td>
+                    <input type="checkbox"Hindi>Hindi
+                    <input type="checkbox"English>English
+                    <input type="checkbox"Bengali>Bengali
+                    <input type="checkbox"Others>Others
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    School/College Name:
+                </td>
+                <td style="text-transform: capitalize;">
+                    <input type="name" id="" placeholder="" autocomplete="off" required style="text-align: center; text-transform: uppercase;"><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Education Qualification:
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select Option</option>
+                        <option value="">10th pass</option>
+                        <option value="">10+2 pass</option>
+                        <option value="">Postgraduation</option>
+                        <option value="">Graduation</option>
+                        <option value="">Master Degree</option>
+                        <option value="">None</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Department:
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select Option</option>
+                        <option value="">CSE</option>
+                        <option value="">ECE</option>
+                        <option value="">Civil Engineering</option>
+                        <option value="">EE</option>
+                        <option value="">IT</option>
+                        <option value="">None</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    States:
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select Option</option>
+                        <option value="">West Bengal</option>
+                        <option value="">Andhra Pradesh</option>
+                        <option value="">Arunachal Pradesh</option>
+                        <option value="">Assam</option>
+                        <option value="">Bihar</option>
+                        <option value="">Chhattisgarh</option>
+                        <option value="">Goa</option>
+                        <option value="">Gujarat</option>
+                        <option value="">Haryana</option>
+                        <option value="">Himachal Pradesh</option>
+                        <option value="">Jharkhand</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Kerala</option>
+                        <option value="">Madhya Pradesh</option>
+                        <option value="">Maharashtra</option>
+                        <option value="">Manipur</option>
+                        <option value="">Meghalaya</option>
+                        <option value="">Mizoram</option>
+                        <option value="">Nagaland</option>
+                        <option value="">Odisha</option>
+                        <option value="">Punjab</option>
+                        <option value="">Rajasthan</option>
+                        <option value="">Sikkim</option>
+                        <option value="">Tamil Nadu</option>
+                        <option value="">None</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bolder;">
+                    Address:
+                </td>
+                <td>
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Enter Your Address" autocomplete="off" aria-colspan=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit" style="background-color: rgb(71, 168, 71); font-weight: bolder; font-size: medium;">
+                    <input type="reset" value="Reset" style="background-color: rgb(112, 112, 153); font-weight: bolder; font-size: small;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
